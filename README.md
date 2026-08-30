@@ -6,13 +6,13 @@ Vuestra misión es entregar las 3 fases del proyecto (MVP, Producción y Escalad
 
 No sabemos a dónde nos llevará todo esto, pero como decía Edsger Dijkstra, «Si la informática trata sobre ordenadores y código, entonces la astronomía consiste en manejar telescopios».
 
-TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **partidas rápidas de entre 5 y 10 minutos** con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con vuestros compañeros de partidas. Sobre la IA o la vida. Eso os lo dejamos a vosotros.
+TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **partidas rápidas de entre 5 y 10 minutos** con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con vuestros compañeros de partida. Sobre la IA o la vida. Eso os lo dejamos a vosotros.
 
 ## CONTENIDO
 
 La caja contiene 71 cartas repartidas en tres mazos: 51 de Operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de Malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de Proyectos (MVP, Producción y Escalado):
 
-***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Órganos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos)*
+***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en la que figure el número de cartas de cada modelo. En vez de Órganos, Virus, Medicinas y Tratamientos, usaremos con Modelos, Malware, Contramedidas y Técnicos)*
 
 <p align="center">
     <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/tabla_cartas.png?raw=true" height="300">
@@ -21,7 +21,7 @@ La caja contiene 71 cartas repartidas en tres mazos: 51 de Operaciones (21 Model
 ## PREPARACIÓN
 
 1. Colocad las cartas de Proyecto en este orden: MVP, Producción y Escalado. MVP es el Proyecto inicial.
-2. Barajad por separado el mazo de Operaciones y el mazo de Malware. Se reconocen, porque tienen reversos de colores diferentes.
+2. Barajad por separado el mazo de Operaciones y el mazo de Malware. Los distinguiréis porque tienen reversos de colores diferentes.
 3. Elegid una dificultad y revelad el número correspondiente de cartas de Operaciones. Estas cartas forman el Contexto compartido:
 
 | Dificultad | Contexto compartido | Recomendación           |
@@ -39,7 +39,7 @@ La caja contiene 71 cartas repartidas en tres mazos: 51 de Operaciones (21 Model
 
 ## OBJETIVO
 
-Trabajáis como un único equipo. No existen manos personales ni turnos individuales. Todas las cartas están a la vista y todas las decisiones pertenecen al equipo.
+Trabajáis como un único equipo. No existen manos personales ni turnos individuales. Todas las cartas en juego están a la vista y las decisiones pertenecen al equipo.
 
 Para ganar debéis completar, por orden, los tres Proyectos:
 1. MVP
@@ -204,13 +204,13 @@ Si cumplís estos objetivos y, después de las Operaciones, quedan 5 o menos Mal
 
 Cuando completéis MVP o Producción:
 
-1. Reunid de nuevo las 51 cartas de Operaciones.
-2. Barajadlas y formad un Contexto nuevo, del tamaño correspondiente a la dificultad elegida.
+1. Reunid de nuevo las 51 cartas de Operaciones, las del mazo, el descarte, el Contexto y la Plataforma.
+2. Barajadlas para formar un nuevo mazo de Operaciones y desplegar un Contexto nuevo, del tamaño correspondiente a la dificultad elegida.
 3. Reunid el mazo de Malware restante y la pila de Malware resuelto. Barajad esas cartas para formar el nuevo mazo.
 4. El Malware pendiente permanece sobre la mesa, se arrastra al siguiente Proyecto y no vuelve al mazo.
 5. Activad el siguiente Proyecto y comenzad una ronda nueva.
 
-La recompensa de Producción se aplica antes de realizar estos pasos. Por tanto, el Malware eliminado mediante la recompensa pasa a la pila de resueltos y vuelve al mazo de Malware de Escalado.
+La recompensa de Producción se aplica antes de realizar estos pasos. Por tanto, el Malware contenido mediante la recompensa pasa a la pila de resueltos y vuelve al mazo de Malware de Escalado.
 
 ## AGOTAMIENTO DEL MAZO DE OPERACIONES
 
@@ -222,7 +222,7 @@ Si el mazo se agota, reponed el Contexto con todas las cartas que podáis. Todas
 
 Cuando reveléis la última carta del mazo de Malware, terminad normalmente esa ronda.
 
-* Si completáis el Proyecto, continuáis al siguiente o ganáis si estabais desarrollando Escalado.
+* Si completáis el Proyecto, continuáis al siguiente o ganáis si estabais en Escalado.
 * Si no completáis el Proyecto, perdéis la partida: no puede comenzar una nueva ronda sin Malware.
 
 Si en Escalado debéis revelar 2 Malware, pero solo queda una carta, revelad esa última carta y jugad normalmente la ronda final.
@@ -231,7 +231,7 @@ Si en Escalado debéis revelar 2 Malware, pero solo queda una carta, revelad esa
 
 ### Ganáis si
 
-Completáis los objetivos del proyecto de Escalado y termináis la ronda con 5 o menos Malware pendientes.
+Completáis los objetivos del Proyecto de Escalado y termináis la ronda con 5 o menos Malware pendientes.
 
 ### Perdéis si
 * Después de realizar las Operaciones de una ronda quedan 6 o más Malware pendientes.
@@ -251,7 +251,7 @@ Cada Modelo pertenece a un fabricante. Todas las cartas de un mismo fabricante c
 | Croc      | Devoratokens     | Token Bucket               |
 | Miñanai   | Prompt Injection | Full Stack Defense         |
 
-***PARA HUGO**: (la tabla puede ser puro texto, pero con cada línea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GePeTo (rojo), Claudio (naranja), DeepGeek (azul), Croc (verde), Miñanai (Multicolor))*
+***PARA HUGO**: (la tabla puede ser puro texto, pero con cada línea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GePeTo (rojo), Claudio (naranja), Deep Geek (azul), Croc (verde), Miñanai (Multicolor))*
 
 #### Modelos normales
 
