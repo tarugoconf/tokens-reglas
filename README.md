@@ -206,16 +206,15 @@ Desplegad hasta 2 Modelos del Contexto utilizando una sola Operación.
 
 Podéis desplegar solamente uno. Debéis respetar siempre el máximo de 5 Modelos de la Plataforma y retirar previamente los que sea necesario sustituir.
 
-Model Hacker — Model Extraction
+#### Model Hacker
 
 Revelad hasta 5 cartas del mazo de Operaciones.
-
-Si aparece algún Modelo, desplegad uno de los Modelos revelados y descartad las demás cartas.
-Si no aparece ningún Modelo, añadid una de las cartas reveladas al Contexto y descartad el resto.
+* Si aparece algún Modelo, desplegad uno de los Modelos revelados y descartad las demás cartas.
+* Si no aparece ningún Modelo, añadid una de las cartas reveladas al Contexto y descartad el resto.
 
 Las cartas descartadas no regresan al mazo hasta que termine el Proyecto.
 
-AI Red Teamer — Adversarial Testing
+#### Red Teamer
 
 Contened un Malware pendiente sin gastar ninguna Contramedida.
 
@@ -223,18 +222,17 @@ Puede contener cualquier Malware, incluido Prompt Injection.
 
 El Malware contenido pasa a la pila de resueltos.
 
-Context Engineer — Clear Context
+#### Context Engineer
 
 Descartad este Técnico y tantas cartas adicionales del Contexto como queráis.
 
 Reponed inmediatamente el Contexto hasta recuperar el tamaño correspondiente a la dificultad.
 
-AI Solutions Architect — Full Replatforming
+#### Solutions Architect
 
 Descartad este Técnico y elegid en el Contexto:
-
-Un Modelo.
-Una Contramedida compatible con ese Modelo.
+* Un Modelo.
+* Una Contramedida compatible con ese Modelo.
 
 Desplegad ambos juntos. El Modelo entra directamente protegido y toda la acción cuesta una única Operación.
 
