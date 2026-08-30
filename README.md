@@ -1,18 +1,18 @@
 <h1 align="center">¡Tokens! El juego de cartas</h1> <br>
 
-En PANICOSA las aguas están revueltas. Los jefes se han puesto nerviosos y quieren que implementéis una plataforma de IA en la empresa «para ayer», o echarán a todo el Departamento de Informática. Total, han oido que, en menos de seis meses, los programadores no harán falta.
+En PANICOSA las aguas están revueltas. Los jefes se han puesto nerviosos y quieren que implementéis una plataforma de IA en la empresa «para ayer», o echarán a todo el Departamento de Informática. Total, según han oido, en menos de seis meses los programadores ya no harán falta.
 
-Tu misión es liderar al equipo que debe entregar las 3 fases del proyecto (MVP, Producción y Escalado) antes de que la deuda técnica os como vivos, usando todas las medidas a tu alcance y las habilidades de tus compañeros.
+Tu misión es liderar al equipo que debe entregar las 3 fases del proyecto (MVP, Producción y Escalado) antes de que la deuda técnica os coma vivos, usando todas las medidas a tu alcance y las habilidades de tus compañeros.
 
-No sabemos a dónde nos llevará todo esto, pero como decía Edsger Dijkstra, «Si la informática trata sobre ordenadores y código, entonces la astronomía es la disciplina de manejar telescopios».
+No sabemos a dónde nos llevará todo esto, pero como decía Edsger Dijkstra, «Si la informática trata sobre ordenadores y código, entonces la astronomía consiste en manejar telescopios».
 
 TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **partidas rápidas de entre 5 y 10 minutos** con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con tus compañeros de partidas. Sobre la IA o la vida. Eso te lo dejamos a ti.
 
 ## CONTENIDO
 
-La caja contiene un mazo de 71 cartas, dividas en 51 de operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de proyectos (MVP, Producción y Escalado):
+La caja contiene un mazo de 71 cartas, dividas en 51 de Operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de Malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de Proyectos (MVP, Producción y Escalado):
 
-**PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Organos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos)
+***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Organos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos)*
 
 <p align="center">
     <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/tabla_cartas.png?raw=true" height="300">
@@ -20,11 +20,11 @@ La caja contiene un mazo de 71 cartas, dividas en 51 de operaciones (21 Modelos,
 
 ## PREPARACIÓN
 
-1. Colocad las cartas de Proyecto en este orden: MVP, Producción y Escalado. Prototipo es el Proyecto inicial.
+1. Colocad las cartas de Proyecto en este orden: MVP, Producción y Escalado. MVP es el Proyecto inicial.
 2. Barajad por separado el mazo de Operaciones y el mazo de Malware.
 3. Elegid una dificultad y revelad el número correspondiente de cartas de Operaciones. Estas cartas forman el Contexto compartido:
 
-| Dificultad | Contexto | Recomendación           |
+| Dificultad | Contexto compartido | Recomendación           |
 | ---------- | -------: | ----------------------- |
 | Vibecoder      | 8 cartas | Primera partida         |
 | Junior     | 7 cartas | Experiencia recomendada |
@@ -48,7 +48,7 @@ Para ganar debéis completar, por orden, los tres Proyectos:
 
 Cada Proyecto exige desplegar determinados Modelos y proteger algunos de ellos con Contramedidas.
 
-Mientras trabajáis irán apareciendo cartas de Malware. Si al comprobar la saturación hay 6 o más Malwares pendientes, perdéis la partida.
+Mientras trabajáis irán apareciendo cartas de Malware. Si al comprobar la deudatécnica tenéis 6 o más Malwares pendientes, perdéis la partida.
 
 ## CONCEPTOS BÁSICOS
 
@@ -78,13 +78,13 @@ El equipo puede realizar, como máximo, el número de Operaciones indicado por e
 
 Cada acción o técnico utilizado cuesta normalmente 1 Operación. El equipo puede realizar menos Operaciones si lo desea.
 
-**3. Comprobar la saturación**
+**3. Comprobar la deuda técnica**
 
 Contad el Malware que continúa pendiente.
 
 Si hay 6 o más, la deuda técnica os satura y perdéis la partida.
 
-La saturación no se comprueba al revelar el Malware, sino después de realizar las Operaciones. Por tanto, si al inicio de la ronda llegáis a 6, todavía podéis utilizar las Operaciones de esa ronda para reducir el peligro a 5 o menos.
+La deuda técnica no se comprueba al revelar el Malware, sino después de realizar las Operaciones. Por tanto, si al inicio de la ronda llegáis a 6 Malwares, todavía podéis utilizar las Operaciones de esa ronda para reducir la deuda a 5 o menos.
 
 **4. Comprobar la entrega**
 
@@ -92,7 +92,7 @@ Si no estáis saturados, comprobad los objetivos del Proyecto.
 
 Si se cumplen todos, completáis el Proyecto.
 
-La saturación se comprueba siempre antes que la entrega. Si en la misma ronda cumplís el objetivo, pero quedan 6 o más Malware pendientes, perdéis.
+La deuda técnica se comprueba siempre antes que la entrega. Si en la misma ronda cumplís el objetivo, pero quedan 6 o más Malware pendientes, perderéis la partida.
 
 **5. Reponer el Contexto**
 
@@ -152,11 +152,11 @@ Refrescar cuesta 1 Operación, independientemente del número de cartas descarta
 
 1. Revelad el Malware indicado por el Proyecto.
 2. Realizad las Operaciones disponibles.
-3. Comprobad la saturación.
+3. Comprobad la deuda técnica.
 4. Comprobad los objetivos del Proyecto.
 5. Si el Proyecto continúa, reponed el Contexto.
 
-Malware → Operaciones → Saturación → Entrega → Reposición
+Malware → Operaciones → Deuda Técnica → Entrega → Reposición
 
 ## LOS TRES PROYECTOS
 
@@ -168,8 +168,8 @@ Para completar el MVP necesitáis:
 * 2 Modelos desplegados.
 * Al menos 1 Modelo protegido.
 
-**Sandbox de Prototipo**
-Mientras Prototipo esté activo, una única Contramedida de cualquier familia puede contener cualquier Malware normal.
+**Sandbox de MVP**
+Mientras el MVP esté activo, una única Contramedida de cualquier fabricante puede contener cualquier Malware normal.
 Prompt Injection conserva siempre su regla especial.
 
 ### Producción
@@ -243,15 +243,15 @@ No es necesario eliminar todo el Malware para completar un Proyecto. Podéis com
 
 Cada fabricante comparte un color y un símbolo:
 
-| Fabricante    | Modelo    | Malware          | Contramedida               |
-| ---------- | --------- | ---------------- | -------------------------- |
-| Rojo   | Gepeto    | Alucinación      | Toma de tierra (RAG)       |
-| Naranja   | Claudio   | Prompt Leak      | Cortafugas (Policy Engine) |
-| Azul       | Deep Geek | Data Poisoning   | Data Detox                 |
-| Verde    | Croc      | Devoratokens     | Token Bucket               |
-| Multicolor | Miñanai   | Prompt Injection | Full Stack Defense         |
+| Modelo    | Malware          | Contramedida               |
+| ---------- | --------- | -------------------------- |
+| GePeTo    | Alucinación      | Toma de tierra (RAG)       |
+| Claudio   | Prompt Leak      | Cortafugas (Policy Engine) |
+| Deep Geek | Data Poisoning   | Data Detox                 |
+| Croc      | Devoratokens     | Token Bucket               |
+| Miñanai   | Prompt Injection | Full Stack Defense         |
 
-**PARA HUGO**: (la tabla puede ser puro texto, pero con cada linea del color que le corresponda o visual, con imágenes de las cartas que corresponden)
+***PARA HUGO**: (la tabla puede ser puro texto, pero con cada linea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GePeTo (rojo), Claudio (naranja), DeepGeek (azul), Croc (verde), Miñanai (Multicolor))*
 
 #### Modelos normales
 
@@ -287,13 +287,13 @@ Dos Contramedidas normales del mismo color no sirven.
 
 ## LOS TÉCNICOS
 
-**PARA HUGO**: (es muy importante que junto al título de cada técnico pongamos el dibujo de la carta correspondiente o al menos el icono, para que pueda reconocerse inmediatamente durante las partidas:
+***PARA HUGO**: (es muy importante que junto al título de cada técnico pongamos el dibujo de la carta correspondiente o al menos el icono, para que pueda reconocerse inmediatamente durante las partidas)*
 
 Los Técnicos realizan acciones especiales. Jugarlos cuesta 1 Operación.
 
 #### Developer
 
-Desplegad hasta 2 Modelos del Contexto utilizando una sola Operación.
+Desplegad hasta 2 Modelos del Contexto compartido utilizando una sola Operación.
 
 Podéis desplegar solamente uno. Debéis respetar siempre el máximo de 5 Modelos de la Plataforma y retirar previamente los que sea necesario sustituir.
 
@@ -321,11 +321,11 @@ Reponed inmediatamente el Contexto hasta recuperar el tamaño correspondiente a 
 
 #### Solutions Architect
 
-Descartad este Técnico y elegid en el Contexto:
+Podéis elegir en el Contexto compartido:
 * Un Modelo.
 * Una Contramedida compatible con ese Modelo.
 
-Desplegad ambos juntos. El Modelo entra directamente protegido y toda la acción cuesta una única Operación.
+Desplegad ambos juntos. El Modelo entra directamente protegido y toda la acción cuesta una única Operación. Descartad al Técnico.
 
 Si la Plataforma está llena, retirad antes un Modelo y su Contramedida instalada.
 
@@ -333,11 +333,11 @@ Si la Plataforma está llena, retirad antes un Modelo y su Contramedida instalad
 
 1. Revelad el Malware indicado por el Proyecto.
 2. Realizad las Operaciones disponibles.
-3. Comprobad la saturación.
+3. Comprobad la deuda técnica.
 4. Comprobad los objetivos del Proyecto.
 5. Si el Proyecto continúa, reponed el Contexto.
 
-Malware → Operaciones → Saturación → Entrega → Reposición
+Malware → Operaciones → Deuda Técnica → Entrega → Reposición
 
 ____
 
