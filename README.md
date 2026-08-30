@@ -330,7 +330,7 @@ Desplegad ambos juntos. El Modelo entra directamente protegido y toda la acción
 
 Si la Plataforma está llena, retirad antes un Modelo y su Contramedida instalada.
 
-## RESUMEN DE UNA RONDA
+## UNA VEZ MÁS, RESUMEN DE UNA RONDA
 
 1. Revelad el Malware indicado por el Proyecto.
 2. Realizad las Operaciones disponibles.
@@ -341,6 +341,8 @@ Si la Plataforma está llena, retirad antes un Modelo y su Contramedida instalad
 Malware → Operaciones → Deuda Técnica → Entrega → Reposición
 
 ____
+
+Este juego no puede ponerse a la venta. ¡Tokens! ha sido diseñado exclusivamente para los asistentes de la TRG26. Ellos y ellas son el bien absoluto. La mejor Comunidad del mundo.
 
 ©2026 TRG EVENTS & MARKETING S.L.
 
