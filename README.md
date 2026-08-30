@@ -1,5 +1,5 @@
 <h1 align="center">¡Unicornio! El juego de cartas</h1> <br>
-Reglas del juego de cartas Tokens. WIP
+
 INSTRUCCIONES
 
 En PANICOSA las aguas están revueltas. Los jefes se han puesto nerviosos y quieren que implementéis una plataforma de IA en la empresa «para ayer», o echarán a todo el Departamento de Informática. Total, han oido que, en menos de seis meses, los programadores no harán falta.
@@ -8,17 +8,15 @@ Tu misión es liderar al equipo que debe entregar las 3 fases del proyecto (MVP,
 
 No sabemos a dónde nos llevará todo esto, pero como decía Edsger Dijkstra, «Si la informática trata sobre ordenadores y código, entonces la astronomía es la disciplina de manejar telescopios».
 
-TOKENS es un juego cooperativo para 1 a 4 jugadores, que puede jugarse en partidas rápidas de entre 5 y 10 minutos con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con tus compañeros de partidas. Sobre la IA o la vida. Eso te lo dejamos a ti.
+TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **partidas rápidas de entre 5 y 10 minutos** con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con tus compañeros de partidas. Sobre la IA o la vida. Eso te lo dejamos a ti.
 
-CONTENIDO
+### CONTENIDO
 
-La caja contiene un mazo de 71 cartas, dividas en los siguientes tipos:
+La caja contiene un mazo de 71 cartas, dividas en 51 de operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de proyectos (MVP, Producción y Escalado):
 
-(poner una tabla parecida a la de las instrucciones de virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Organos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos.
+(dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Organos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos.
 
-PREPARACIÓN
-
-
+### PREPARACIÓN
 
 Colocad las cartas de Proyecto en este orden: MVP, Producción y Escalado. Prototipo es el Proyecto inicial.
 
@@ -36,7 +34,7 @@ El Malware resuelto.
 
 Los descartes de Operaciones.
 
-OBJETIVO
+### OBJETIVO
 
 Trabajáis como un único equipo. No existen manos personales ni turnos individuales. Todas las cartas están a la vista y todas las decisiones pertenecen al equipo.
 
