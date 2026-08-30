@@ -1,8 +1,8 @@
 <h1 align="center">¡Tokens! El juego de cartas</h1> <br>
 
-En PANICOSA las aguas están revueltas. Los jefes se han puesto nerviosos y quieren que implementéis una plataforma de IA en la empresa «para ayer», o echarán a todo el Departamento de Informática. Total, según han oido, en menos de seis meses los programadores ya no harán falta.
+En PANICOSA las aguas están revueltas. Los jefes se han puesto nerviosos y quieren que implementéis una plataforma de IA en la empresa «para ayer», o echarán a todo el Departamento de Informática. Total, según han oído, en menos de seis meses los programadores ya no harán falta.
 
-Tu misión es liderar al equipo que debe entregar las 3 fases del proyecto (MVP, Producción y Escalado) antes de que la deuda técnica os coma vivos, usando todas las medidas a tu alcance y las habilidades de tus compañeros.
+Vuestra misión es entregar las 3 fases del proyecto (MVP, Producción y Escalado) antes de que la deuda técnica os coma vivos, usando todas las medidas a tu alcance y las habilidades de vuestro equipo.
 
 No sabemos a dónde nos llevará todo esto, pero como decía Edsger Dijkstra, «Si la informática trata sobre ordenadores y código, entonces la astronomía consiste en manejar telescopios».
 
@@ -10,7 +10,7 @@ TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **
 
 ## CONTENIDO
 
-La caja contiene un mazo de 71 cartas, dividas en 51 de Operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de Malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de Proyectos (MVP, Producción y Escalado):
+La caja contiene 3 mazos con un total 71 cartas, divididas en 51 de Operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de Malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de Proyectos (MVP, Producción y Escalado):
 
 ***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Organos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos)*
 
@@ -48,7 +48,7 @@ Para ganar debéis completar, por orden, los tres Proyectos:
 
 Cada Proyecto exige desplegar determinados Modelos y proteger algunos de ellos con Contramedidas.
 
-Mientras trabajáis irán apareciendo cartas de Malware. Si al comprobar la deudatécnica tenéis 6 o más Malwares pendientes, perdéis la partida.
+Mientras trabajáis irán apareciendo cartas de Malware. Si al comprobar la deuda técnica tenéis 6 o más Malware pendientes, perdéis la partida.
 
 ## CONCEPTOS BÁSICOS
 
@@ -64,7 +64,9 @@ Mientras trabajáis irán apareciendo cartas de Malware. Si al comprobar la deud
 
 **Malware resuelto**: Malware que ha sido contenido. Permanece en una pila separada hasta que termina el Proyecto.
 
-## COMO SE JUEGA
+**Deuda técnica**: número de cartas de Malware que permanecen pendientes. Se comprueba después de realizar las Operaciones. Con 6 o más, perdéis la partida.
+
+## CÓMO SE JUEGA
 
 El juego consta de una serie de rondas, hasta que el equipo complete los sucesivos proyectos o pierda la partida. Cada ronda se resuelve siguiendo siempre estos 5 pasos:
 
@@ -82,13 +84,13 @@ Cada acción o técnico utilizado cuesta normalmente 1 Operación. El equipo pue
 
 Contad el Malware que continúa pendiente.
 
-Si hay 6 o más, la deuda técnica os satura y perdéis la partida.
+Si hay 6 o más, la deuda técnica os supera y perdéis la partida.
 
-La deuda técnica no se comprueba al revelar el Malware, sino después de realizar las Operaciones. Por tanto, si al inicio de la ronda llegáis a 6 Malwares, todavía podéis utilizar las Operaciones de esa ronda para reducir la deuda a 5 o menos.
+La deuda técnica no se comprueba al revelar el Malware, sino después de realizar las Operaciones. Por tanto, si al inicio de la ronda llegáis a 6 Malware, todavía podéis utilizar las Operaciones de esa ronda para reducir la deuda a 5 o menos.
 
 **4. Comprobar la entrega**
 
-Si no estáis saturados, comprobad los objetivos del Proyecto.
+Si no habéis sido derrotados por la deuda técnica, comprobad los objetivos del Proyecto.
 
 Si se cumplen todos, completáis el Proyecto.
 
@@ -125,10 +127,8 @@ Instalar una Contramedida no contiene automáticamente ningún Malware. Sirve pa
 Elegid un Malware pendiente y descartad una Contramedida compatible.
 
 La Contramedida puede proceder:
-
-Directamente del Contexto.
-
-De un Modelo que ya la tuviera instalada.
+* Directamente del Contexto.
+* De un Modelo que ya la tuviera instalada.
 
 Si utilizáis una Contramedida instalada, el Modelo permanece en la Plataforma, pero deja de estar protegido.
 
@@ -169,6 +169,7 @@ Para completar el MVP necesitáis:
 * Al menos 1 Modelo protegido.
 
 **Sandbox de MVP**
+
 Mientras el MVP esté activo, una única Contramedida de cualquier fabricante puede contener cualquier Malware normal.
 Prompt Injection conserva siempre su regla especial.
 
@@ -178,19 +179,20 @@ Al comienzo de cada ronda se revela 1 Malware y el equipo dispone de 2 Operacion
 
 Para completar Producción necesitáis:
 
-3 Modelos desplegados.
+* 3 Modelos desplegados.
 * Modelos de al menos 2 fabricantes diferentes.
 * Al menos 2 Modelos protegidos.
 
 **Recompensa de Producción**
+
 Al completar Producción, contened gratuitamente 1 Malware pendiente, si lo hay.
-No necesitáis gastar ninguna Contramedida. Aplicad esta recompensa antes de preparar Escala.
+No necesitáis gastar ninguna Contramedida. Aplicad esta recompensa antes de preparar Escalado.
 
 ### Escalado
 
 Al comienzo de cada ronda se revelan 2 Malware y el equipo dispone de 3 Operaciones.
 
-Para completar Escala necesitáis:
+Para completar Escalado necesitáis:
 
 * 5 Modelos desplegados.
 * Modelos de al menos 3 fabricantes diferentes.
@@ -202,15 +204,14 @@ Si cumplís estos objetivos y, después de las Operaciones, quedan 5 o menos Mal
 
 Cuando completéis MVP o Producción:
 
-1. Pasad todos los Modelos y Contramedidas instaladas de la Plataforma al descarte de Operaciones.
-2. Descartad todas las cartas que queden en el Contexto.
-3. Reunid las 51 cartas de Operaciones: mazo restante, descarte, Contexto y cartas procedentes de la Plataforma.
-4. Barajad todas las Operaciones y revelad un Contexto nuevo del tamaño correspondiente a la dificultad.
-5. Reunid el mazo de Malware restante y el resuelto. Barajad esas cartas para formar el nuevo mazo de Malware.
-6. Dejad sobre la mesa el Malware que continúe pendiente. Ese Malware se arrastra al siguiente Proyecto y no vuelve al mazo.
-7. Activad el siguiente Proyecto y comenzad una ronda nueva.
+1. Pasad todos los Modelos y Contramedidas de la Plataforma al descarte de Operaciones.
+2. Pasad también al descarte todas las cartas del Contexto.
+3. Reunid el mazo restante y todo el descarte de Operaciones. Debéis recuperar las 51 cartas. Barajadlas y formad un Contexto nuevo.
+4. Reunid el mazo de Malware restante y la pila de Malware resuelto. Barajad esas cartas para formar el nuevo mazo.
+5. El Malware pendiente permanece sobre la mesa.
+6. Activad el siguiente Proyecto y comenzad una ronda nueva.
 
-La recompensa de Producción se aplica antes de realizar estos pasos. Por tanto, el Malware eliminado mediante la recompensa pasa a la pila de resueltos y vuelve al mazo de Incidentes de Escala.
+La recompensa de Producción se aplica antes de realizar estos pasos. Por tanto, el Malware eliminado mediante la recompensa pasa a la pila de resueltos y vuelve al mazo de Malware de Escalado.
 
 ## AGOTAMIENTO DEL MAZO DE OPERACIONES
 
@@ -222,7 +223,7 @@ Si el mazo se agota, reponed el Contexto con todas las cartas que podáis. Todas
 
 Cuando reveléis la última carta del mazo de Malware, terminad normalmente esa ronda.
 
-* Si completáis el Proyecto, continuáis al siguiente o ganáis si estabais en Escala.
+* Si completáis el Proyecto, continuáis al siguiente o ganáis si estabais desarrollando Escalado.
 * Si no completáis el Proyecto, perdéis la partida: no puede comenzar una nueva ronda sin Malware.
 
 Si en Escalado debéis revelar 2 Malware, pero solo queda una carta, revelad esa última carta y jugad normalmente la ronda final.
@@ -231,17 +232,17 @@ Si en Escalado debéis revelar 2 Malware, pero solo queda una carta, revelad esa
 
 ### Ganáis si
 
-Completáis los objetivos de Escala y termináis la ronda con 5 o menos Malware pendientes.
+Completáis los objetivos del proyecto de Escalado y termináis la ronda con 5 o menos Malware pendientes.
 
 ### Perdéis si
 * Después de realizar las Operaciones de una ronda quedan 6 o más Malware pendientes.
-* Se agota el mazo de Incidentes y no completáis el Proyecto durante esa última ronda.
+* Se agota el mazo de Malware y no completáis el Proyecto durante esa última ronda.
 
 No es necesario eliminar todo el Malware para completar un Proyecto. Podéis completarlo con cualquier cantidad entre 0 y 5 Malware pendientes.
 
 ## FABRICANTES Y COMPATIBILIDAD
 
-Cada fabricante comparte un color y un símbolo:
+Cada Modelo pertenece a un fabricante. Todas las cartas de un mismo fabricante comparten color y símbolo: Modelo, Malware y Contramedida.
 
 | Modelo    | Malware          | Contramedida               |
 | ---------- | --------- | -------------------------- |
@@ -256,18 +257,18 @@ Cada fabricante comparte un color y un símbolo:
 #### Modelos normales
 
 Un Modelo normal acepta:
-* Una Contramedida de su propiao fabricante.
+* Una Contramedida de su propio fabricante.
 * Una Full Stack Defense multicolor.
 
 #### Miñanai
 
 Miñanai puede recibir una Contramedida de cualquier fabricante.
 
-Sin embargo, Miñanai cuenta como un quinto fabricante propio. No copia el fabricante de la Contramedida instalada ni la de otro Modelo.
+Sin embargo, Miñanai cuenta como un quinto fabricante propio. No copia el fabricante de la Contramedida instalada ni el de otro Modelo.
 
 Una Contramedida normal instalada sobre Miñanai conserva su color y sus propiedades originales.
 
-Por ejemplo, una Data Detox azúl instalada sobre Miñanai puede utilizarse contra Data Poisoning azúl, pero no contra cualquier Malware.
+Por ejemplo, una Data Detox azul instalada sobre Miñanai puede utilizarse contra Data Poisoning azúl, pero no contra cualquier Malware.
 
 #### Malware normal
 
@@ -279,7 +280,7 @@ Un Malware normal puede contenerse utilizando:
 
 Prompt Injection es el Malware multicolor. Puede contenerse de dos maneras:
 * Utilizando una Full Stack Defense.
-* Utilizando conjuntamente 2 Contramedidas normales de fabricante diferentes.
+* Utilizando conjuntamente 2 Contramedidas normales de fabricantes diferentes.
 
 Las 2 Contramedidas deben gastarse en una única Operación. Pueden proceder del Contexto, estar instaladas sobre Modelos o combinar ambos lugares.
 
