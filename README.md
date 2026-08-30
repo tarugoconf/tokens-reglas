@@ -2,17 +2,17 @@
 
 En PANICOSA las aguas están revueltas. Los jefes se han puesto nerviosos y quieren que implementéis una plataforma de IA en la empresa «para ayer», o echarán a todo el Departamento de Informática. Total, según han oído, en menos de seis meses los programadores ya no harán falta.
 
-Vuestra misión es entregar las 3 fases del proyecto (MVP, Producción y Escalado) antes de que la deuda técnica os coma vivos, usando todas las medidas a tu alcance y las habilidades de vuestro equipo.
+Vuestra misión es entregar las 3 fases del proyecto (MVP, Producción y Escalado) antes de que la deuda técnica os coma vivos, usando todas las medidas a vuestro alcance y las habilidades del equipo.
 
 No sabemos a dónde nos llevará todo esto, pero como decía Edsger Dijkstra, «Si la informática trata sobre ordenadores y código, entonces la astronomía consiste en manejar telescopios».
 
-TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **partidas rápidas de entre 5 y 10 minutos** con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con tus compañeros de partidas. Sobre la IA o la vida. Eso te lo dejamos a ti.
+TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **partidas rápidas de entre 5 y 10 minutos** con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con vuestros compañeros de partidas. Sobre la IA o la vida. Eso os lo dejamos a vosotros.
 
 ## CONTENIDO
 
-La caja contiene 3 mazos con un total 71 cartas, divididas en 51 de Operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de Malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de Proyectos (MVP, Producción y Escalado):
+La caja contiene 71 cartas repartidas en tres mazos: 51 de Operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de Malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de Proyectos (MVP, Producción y Escalado):
 
-***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Organos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos)*
+***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en las que además se ponga el número de cartas de cada modelo), pero en vez de Órganos, Virus, Medicinas y Tratamientos, iremos con Modelos, Malware, Contramedidas y Técnicos)*
 
 <p align="center">
     <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/tabla_cartas.png?raw=true" height="300">
@@ -21,7 +21,7 @@ La caja contiene 3 mazos con un total 71 cartas, divididas en 51 de Operaciones 
 ## PREPARACIÓN
 
 1. Colocad las cartas de Proyecto en este orden: MVP, Producción y Escalado. MVP es el Proyecto inicial.
-2. Barajad por separado el mazo de Operaciones y el mazo de Malware.
+2. Barajad por separado el mazo de Operaciones y el mazo de Malware. Se reconocen, porque tienen reversos de colores diferentes.
 3. Elegid una dificultad y revelad el número correspondiente de cartas de Operaciones. Estas cartas forman el Contexto compartido:
 
 | Dificultad | Contexto compartido | Recomendación           |
@@ -98,7 +98,7 @@ La deuda técnica se comprueba siempre antes que la entrega. Si en la misma rond
 
 **5. Reponer el Contexto**
 
-Si el Proyecto continúa (ni lo habéis superado ni habéis perdidos), robad Operaciones hasta recuperar el tamaño correspondiente a la dificultad: 8, 7 o 6 cartas.
+Si el Proyecto continúa —no lo habéis superado ni habéis perdido—, robad Operaciones hasta recuperar el tamaño correspondiente a la dificultad: 8, 7 o 6 cartas.
 
 El Contexto no se repone después de cada Operación. Las cartas utilizadas dejan huecos hasta el final de la ronda, excepto cuando una acción o un Técnico indique expresamente que debéis reponerlo inmediatamente.
 
@@ -204,12 +204,11 @@ Si cumplís estos objetivos y, después de las Operaciones, quedan 5 o menos Mal
 
 Cuando completéis MVP o Producción:
 
-1. Pasad todos los Modelos y Contramedidas de la Plataforma al descarte de Operaciones.
-2. Pasad también al descarte todas las cartas del Contexto.
-3. Reunid el mazo restante y todo el descarte de Operaciones. Debéis recuperar las 51 cartas. Barajadlas y formad un Contexto nuevo.
-4. Reunid el mazo de Malware restante y la pila de Malware resuelto. Barajad esas cartas para formar el nuevo mazo.
-5. El Malware pendiente permanece sobre la mesa.
-6. Activad el siguiente Proyecto y comenzad una ronda nueva.
+1. Reunid de nuevo las 51 cartas de Operaciones.
+2. Barajadlas y formad un Contexto nuevo, del tamaño correspondiente a la dificultad elegida.
+3. Reunid el mazo de Malware restante y la pila de Malware resuelto. Barajad esas cartas para formar el nuevo mazo.
+4. El Malware pendiente permanece sobre la mesa, se arrastra al siguiente Proyecto y no vuelve al mazo.
+5. Activad el siguiente Proyecto y comenzad una ronda nueva.
 
 La recompensa de Producción se aplica antes de realizar estos pasos. Por tanto, el Malware eliminado mediante la recompensa pasa a la pila de resueltos y vuelve al mazo de Malware de Escalado.
 
@@ -252,7 +251,7 @@ Cada Modelo pertenece a un fabricante. Todas las cartas de un mismo fabricante c
 | Croc      | Devoratokens     | Token Bucket               |
 | Miñanai   | Prompt Injection | Full Stack Defense         |
 
-***PARA HUGO**: (la tabla puede ser puro texto, pero con cada linea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GePeTo (rojo), Claudio (naranja), DeepGeek (azul), Croc (verde), Miñanai (Multicolor))*
+***PARA HUGO**: (la tabla puede ser puro texto, pero con cada línea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GePeTo (rojo), Claudio (naranja), DeepGeek (azul), Croc (verde), Miñanai (Multicolor))*
 
 #### Modelos normales
 
@@ -268,7 +267,7 @@ Sin embargo, Miñanai cuenta como un quinto fabricante propio. No copia el fabri
 
 Una Contramedida normal instalada sobre Miñanai conserva su color y sus propiedades originales.
 
-Por ejemplo, una Data Detox azul instalada sobre Miñanai puede utilizarse contra Data Poisoning azúl, pero no contra cualquier Malware.
+Por ejemplo, una Data Detox azul instalada sobre Miñanai puede utilizarse contra Data Poisoning azul, pero no contra cualquier Malware.
 
 #### Malware normal
 
