@@ -8,7 +8,7 @@ No sabemos a dónde nos llevará todo esto, pero como decía Edsger Dijkstra, «
 
 TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **partidas rápidas de entre 5 y 10 minutos** con 3 niveles de dificultad. Pero, sobre todo, es una gran excusa para empezar una conversación con tus compañeros de partidas. Sobre la IA o la vida. Eso te lo dejamos a ti.
 
-### CONTENIDO
+## CONTENIDO
 
 La caja contiene un mazo de 71 cartas, dividas en 51 de operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de proyectos (MVP, Producción y Escalado):
 
@@ -18,7 +18,7 @@ La caja contiene un mazo de 71 cartas, dividas en 51 de operaciones (21 Modelos,
     <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/tabla_cartas.png?raw=true" height="300">
 </p>
 
-### PREPARACIÓN
+## PREPARACIÓN
 
 1. Colocad las cartas de Proyecto en este orden: MVP, Producción y Escalado. Prototipo es el Proyecto inicial.
 2. Barajad por separado el mazo de Operaciones y el mazo de Malware.
@@ -37,7 +37,7 @@ La caja contiene un mazo de 71 cartas, dividas en 51 de operaciones (21 Modelos,
 * El Malware resuelto
 * Los descartes de Operaciones
 
-### OBJETIVO
+## OBJETIVO
 
 Trabajáis como un único equipo. No existen manos personales ni turnos individuales. Todas las cartas están a la vista y todas las decisiones pertenecen al equipo.
 
@@ -50,7 +50,7 @@ Cada Proyecto exige desplegar determinados Modelos y proteger algunos de ellos c
 
 Mientras trabajáis irán apareciendo cartas de Malware. Si al comprobar la saturación hay 6 o más Malwares pendientes, perdéis la partida.
 
-### CONCEPTOS BÁSICOS
+## CONCEPTOS BÁSICOS
 
 **Contexto**: fila de cartas de Operaciones disponibles para todo el equipo. Su tamaño depende de la dificultad.
 
@@ -64,21 +64,21 @@ Mientras trabajáis irán apareciendo cartas de Malware. Si al comprobar la satu
 
 **Malware resuelto**: Malware que ha sido contenido. Permanece en una pila separada hasta que termina el Proyecto.
 
-### COMO SE JUEGA
+## COMO SE JUEGA
 
 El juego consta de una serie de rondas, hasta que el equipo complete los sucesivos proyectos o pierda la partida. Cada ronda se resuelve siguiendo siempre estos 5 pasos:
 
-1. Revelar Malware
+**1. Revelar Malware**
 
 Robad del mazo de Malware la cantidad indicada por el Proyecto actual y colocad las cartas boca arriba como Malware pendiente.
 
-2. Realizar Operaciones
+**2. Realizar Operaciones**
 
 El equipo puede realizar, como máximo, el número de Operaciones indicado por el Proyecto.
 
 Cada acción o técnico utilizado cuesta normalmente 1 Operación. El equipo puede realizar menos Operaciones si lo desea.
 
-3. Comprobar la saturación
+**3. Comprobar la saturación**
 
 Contad el Malware que continúa pendiente.
 
@@ -86,7 +86,7 @@ Si hay 6 o más, la deuda técnica os satura y perdéis la partida.
 
 La saturación no se comprueba al revelar el Malware, sino después de realizar las Operaciones. Por tanto, si al inicio de la ronda llegáis a 6, todavía podéis utilizar las Operaciones de esa ronda para reducir el peligro a 5 o menos.
 
-4. Comprobar la entrega
+**4. Comprobar la entrega**
 
 Si no estáis saturados, comprobad los objetivos del Proyecto.
 
@@ -94,17 +94,17 @@ Si se cumplen todos, completáis el Proyecto.
 
 La saturación se comprueba siempre antes que la entrega. Si en la misma ronda cumplís el objetivo, pero quedan 6 o más Malware pendientes, perdéis.
 
-5. Reponer el Contexto
+**5. Reponer el Contexto**
 
 Si el Proyecto continúa (ni lo habéis superado ni habéis perdidos), robad Operaciones hasta recuperar el tamaño correspondiente a la dificultad: 8, 7 o 6 cartas.
 
 El Contexto no se repone después de cada Operación. Las cartas utilizadas dejan huecos hasta el final de la ronda, excepto cuando una acción o un Técnico indique expresamente que debéis reponerlo inmediatamente.
 
-LAS 5 OPERACIONES
+### LAS 5 OPERACIONES
 
 Cada una de las siguientes acciones cuesta 1 Operación.
 
-1. Desplegar un Modelo
+**1. Desplegar un Modelo**
 
 Elegid un Modelo del Contexto y colocadlo en la Plataforma.
 
@@ -112,7 +112,7 @@ La Plataforma puede contener un máximo de 5 Modelos. Si ya está llena, podéis
 
 Las cartas retiradas van al descarte de Operaciones.
 
-2. Instalar una Contramedida
+**2. Instalar una Contramedida**
 
 Elegid una Contramedida compatible del Contexto y colocadla sobre un Modelo de la Plataforma que no tenga otra instalada.
 
@@ -120,7 +120,7 @@ Ese Modelo pasa a estar protegido.
 
 Instalar una Contramedida no contiene automáticamente ningún Malware. Sirve para cumplir los objetivos de los Proyectos y para reservar esa defensa para una ronda posterior.
 
-3. Contener Malware
+**3. Contener Malware**
 
 Elegid un Malware pendiente y descartad una Contramedida compatible.
 
@@ -136,19 +136,110 @@ Colocad la Contramedida en el descarte de Operaciones y pasad el Malware a la pi
 
 No es necesario instalar previamente una Contramedida para utilizarla contra un Malware.
 
-4. Activar un Técnico
+**4. Activar un Técnico**
 
 Elegid un Técnico del Contexto, aplicad completamente su efecto y descartadlo.
 
 Los Técnicos se explican más adelante.
 
-5. Refrescar el Contexto
+**5. Refrescar el Contexto**
 
 Descartad hasta 3 cartas del Contexto y reponedlo inmediatamente hasta recuperar su tamaño normal.
 
 Refrescar cuesta 1 Operación, independientemente del número de cartas descartadas.
 
-### FABRICANTES Y COMPATIBILIDAD
+## RESUMEN DE UNA RONDA
+
+1. Revelad el Malware indicado por el Proyecto.
+2. Realizad las Operaciones disponibles.
+3. Comprobad la saturación.
+4. Comprobad los objetivos del Proyecto.
+5. Si el Proyecto continúa, reponed el Contexto.
+
+Malware → Operaciones → Saturación → Entrega → Reposición
+
+## LOS TRES PROYECTOS
+
+### MVP
+
+Al comienzo de cada ronda se revela 1 Malware y el equipo dispone de 2 Operaciones.
+
+Para completar el MVP necesitáis:
+* 2 Modelos desplegados.
+* Al menos 1 Modelo protegido.
+
+**Sandbox de Prototipo**
+Mientras Prototipo esté activo, una única Contramedida de cualquier familia puede contener cualquier Malware normal.
+Prompt Injection conserva siempre su regla especial.
+
+### Producción
+
+Al comienzo de cada ronda se revela 1 Malware y el equipo dispone de 2 Operaciones.
+
+Para completar Producción necesitáis:
+
+3 Modelos desplegados.
+* Modelos de al menos 2 fabricantes diferentes.
+* Al menos 2 Modelos protegidos.
+
+**Recompensa de Producción**
+Al completar Producción, contened gratuitamente 1 Malware pendiente, si lo hay.
+No necesitáis gastar ninguna Contramedida. Aplicad esta recompensa antes de preparar Escala.
+
+### Escalado
+
+Al comienzo de cada ronda se revelan 2 Malware y el equipo dispone de 3 Operaciones.
+
+Para completar Escala necesitáis:
+
+* 5 Modelos desplegados.
+* Modelos de al menos 3 fabricantes diferentes.
+* Al menos 3 Modelos protegidos.
+
+Si cumplís estos objetivos y, después de las Operaciones, quedan 5 o menos Malware pendientes, ganáis la partida.
+
+## AL COMPLETAR UN PROYECTO
+
+Cuando completéis MVP o Producción:
+
+1. Pasad todos los Modelos y Contramedidas instaladas de la Plataforma al descarte de Operaciones.
+2. Descartad todas las cartas que queden en el Contexto.
+3. Reunid las 51 cartas de Operaciones: mazo restante, descarte, Contexto y cartas procedentes de la Plataforma.
+4. Barajad todas las Operaciones y revelad un Contexto nuevo del tamaño correspondiente a la dificultad.
+5. Reunid el mazo de Malware restante y el resuelto. Barajad esas cartas para formar el nuevo mazo de Malware.
+6. Dejad sobre la mesa el Malware que continúe pendiente. Ese Malware se arrastra al siguiente Proyecto y no vuelve al mazo.
+7. Activad el siguiente Proyecto y comenzad una ronda nueva.
+
+La recompensa de Producción se aplica antes de realizar estos pasos. Por tanto, el Malware eliminado mediante la recompensa pasa a la pila de resueltos y vuelve al mazo de Incidentes de Escala.
+
+## AGOTAMIENTO DEL MAZO DE OPERACIONES
+
+El descarte de Operaciones no se vuelve a barajar durante un Proyecto.
+
+Si el mazo se agota, reponed el Contexto con todas las cartas que podáis. Todas las Operaciones se recuperarán y barajarán cuando paséis al siguiente Proyecto.
+
+## AGOTAMIENTO DEL MAZO DE MALWARE
+
+Cuando reveléis la última carta del mazo de Malware, terminad normalmente esa ronda.
+
+* Si completáis el Proyecto, continuáis al siguiente o ganáis si estabais en Escala.
+* Si no completáis el Proyecto, perdéis la partida: no puede comenzar una nueva ronda sin Malware.
+
+Si en Escalado debéis revelar 2 Malware, pero solo queda una carta, revelad esa última carta y jugad normalmente la ronda final.
+
+## VICTORIA Y DERROTA
+
+### Ganáis si
+
+Completáis los objetivos de Escala y termináis la ronda con 5 o menos Malware pendientes.
+
+### Perdéis si
+* Después de realizar las Operaciones de una ronda quedan 6 o más Malware pendientes.
+* Se agota el mazo de Incidentes y no completáis el Proyecto durante esa última ronda.
+
+No es necesario eliminar todo el Malware para completar un Proyecto. Podéis completarlo con cualquier cantidad entre 0 y 5 Malware pendientes.
+
+## FABRICANTES Y COMPATIBILIDAD
 
 Cada fabricante comparte un color y un símbolo:
 
@@ -194,7 +285,7 @@ Las 2 Contramedidas deben gastarse en una única Operación. Pueden proceder del
 
 Dos Contramedidas normales del mismo color no sirven.
 
-### LOS TÉCNICOS
+## LOS TÉCNICOS
 
 **PARA HUGO**: (es muy importante que junto al título de cada técnico pongamos el dibujo de la carta correspondiente o al menos el icono, para que pueda reconocerse inmediatamente durante las partidas:
 
@@ -237,3 +328,19 @@ Descartad este Técnico y elegid en el Contexto:
 Desplegad ambos juntos. El Modelo entra directamente protegido y toda la acción cuesta una única Operación.
 
 Si la Plataforma está llena, retirad antes un Modelo y su Contramedida instalada.
+
+## RESUMEN DE UNA RONDA
+
+1. Revelad el Malware indicado por el Proyecto.
+2. Realizad las Operaciones disponibles.
+3. Comprobad la saturación.
+4. Comprobad los objetivos del Proyecto.
+5. Si el Proyecto continúa, reponed el Contexto.
+
+Malware → Operaciones → Saturación → Entrega → Reposición
+
+____
+
+©2026 TRG EVENTS & MARKETING S.L.
+Paseo de la Castellana 194, 28046 Madrid, España.
+Todos los derechos reservados. info@tarugoconf.com
