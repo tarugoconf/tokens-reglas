@@ -245,13 +245,13 @@ Cada Modelo pertenece a un fabricante. Todas las cartas de un mismo fabricante c
 
 | Modelo    | Malware          | Contramedida               |
 | ---------- | --------- | -------------------------- |
-| GePeTo    | Alucinación      | Toma de tierra (RAG)       |
+| GPTo    | Alucinación      | Toma de tierra (RAG)       |
 | Claudio   | Prompt Leak      | Cortafugas (Policy Engine) |
 | Deep Geek | Data Poisoning   | Data Detox                 |
 | Croc      | Devoratokens     | Token Bucket               |
 | Miñanai   | Prompt Injection | Full Stack Defense         |
 
-***PARA HUGO**: (la tabla puede ser puro texto, pero con cada línea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GePeTo (rojo), Claudio (naranja), Deep Geek (azul), Croc (verde), Miñanai (Multicolor))*
+***PARA HUGO**: (la tabla puede ser puro texto, pero con cada línea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GPTo (rojo), Claudio (naranja), Deep Geek (azul), Croc (verde), Miñanai (Multicolor))*
 
 #### Modelos normales
 
