@@ -15,7 +15,7 @@ La caja contiene 71 cartas repartidas en tres mazos: 51 de Operaciones (21 Model
 ***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en la que figure el número de cartas de cada modelo. En vez de Órganos, Virus, Medicinas y Tratamientos, usaremos con Modelos, Malware, Contramedidas y Técnicos)*
 
 <p align="center">
-    <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/tabla_cartas.png?raw=true" height="300">
+    <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/imagenes/tabla_cartas.png?raw=true" height="300">
 </p>
 
 ## PREPARACIÓN
