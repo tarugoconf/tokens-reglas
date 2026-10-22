@@ -336,7 +336,7 @@ Algunos jugadores nos han comentado que la estructura de la baraja de Tokens, pe
 
 ____
 
-Este juego no puede ponerse a la venta. «Tokens» ha sido diseñado exclusivamente para los asistentes de la TRG26. Ellos y ellas son el bien absoluto. La mejor Comunidad del mundo.
+**Este juego no puede ponerse a la venta**. «Tokens» ha sido diseñado exclusivamente para los asistentes de la TRG26. Ellos y ellas son el bien absoluto. La mejor Comunidad del mundo.
 
 ©2026 TRG EVENTS & MARKETING S.L.
 
