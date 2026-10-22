@@ -12,10 +12,9 @@ TOKENS es un juego cooperativo **para 1 a 4 jugadores**, que puede jugarse en **
 
 La caja contiene 71 cartas repartidas en tres mazos: 51 de Operaciones (21 Modelos, 20 Contramedidas y 10 Técnicos), 17 de Malware (16 Malware normales y 1 Prompt Injection multicolor) y 3 de Proyectos (MVP, Producción y Escalado):
 
-***PARA HUGO**: (dibujar una tabla parecida a la que aparece en las instrucciones de Virus, en la que figure el número de cartas de cada modelo. En vez de Órganos, Virus, Medicinas y Tratamientos, usaremos con Modelos, Malware, Contramedidas y Técnicos)*
 
 <p align="center">
-    <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/imagenes/tabla_cartas.png?raw=true" height="300">
+    <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/imagenes/TRG26_tokens_baraja.png" height="300">
 </p>
 
 ## PREPARACIÓN
