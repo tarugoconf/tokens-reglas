@@ -242,15 +242,9 @@ No es necesario eliminar todo el Malware para completar un Proyecto. Podéis com
 
 Cada Modelo pertenece a un fabricante. Todas las cartas de un mismo fabricante comparten color y símbolo: Modelo, Malware y Contramedida.
 
-| Modelo    | Malware          | Contramedida               |
-| ---------- | --------- | -------------------------- |
-| GPTo    | Alucinación      | Toma de tierra (RAG)       |
-| Claudio   | Prompt Leak      | Cortafugas (Policy Engine) |
-| Deep Geek | Data Poisoning   | Data Detox                 |
-| Croc      | Devoratokens     | Token Bucket               |
-| Miñanai   | Prompt Injection | Full Stack Defense         |
-
-***PARA HUGO**: (la tabla puede ser puro texto, pero con cada línea del color que le corresponda o visual, con imágenes de las cartas que corresponden: GPTo (rojo), Claudio (naranja), Deep Geek (azul), Croc (verde), Miñanai (Multicolor))*
+<p align="center">
+    <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/imagenes/TRG26_tokens_familias.png" height="300">
+</p>
 
 #### Modelos normales
 
@@ -285,8 +279,6 @@ Las 2 Contramedidas deben gastarse en una única Operación. Pueden proceder del
 Dos Contramedidas normales del mismo color no sirven.
 
 ## LOS TÉCNICOS
-
-***PARA HUGO**: (es muy importante que junto al título de cada técnico pongamos el dibujo de la carta correspondiente o al menos el icono, para que pueda reconocerse inmediatamente durante las partidas)*
 
 Los Técnicos realizan acciones especiales. Jugarlos cuesta 1 Operación.
 
@@ -347,3 +339,7 @@ Este juego no puede ponerse a la venta. «Tokens» ha sido diseñado exclusivame
 Paseo de la Castellana 194, 28046 Madrid, España.
 
 Todos los derechos reservados. info@tarugoconf.com
+
+<p align="center">
+    <img alt="Tokens" title="Tokens" src="https://github.com/tarugoconf/tokens-reglas/blob/main/imagenes/TRG26_tokens_pie.png" height="300">
+</p>
