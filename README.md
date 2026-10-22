@@ -330,6 +330,10 @@ Si la Plataforma está llena, retirad antes un Modelo y su Contramedida instalad
 
 Malware → Operaciones → Deuda Técnica → Entrega → Reposición
 
+## MODO _«VIRÍCO»_
+
+Algunos jugadores nos han comentado que la estructura de la baraja de Tokens, permite jugar de forma muy similar a otro exitoso juego de cartas, pero no lo hemos comprobado.
+
 ____
 
 Este juego no puede ponerse a la venta. «Tokens» ha sido diseñado exclusivamente para los asistentes de la TRG26. Ellos y ellas son el bien absoluto. La mejor Comunidad del mundo.
